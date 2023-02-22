@@ -11,7 +11,6 @@ body {
     background-color: #260F4A;
 }
 .container {
-    width:90%;
     height:250px;
     margin:auto;
     /* background-color: red; */
@@ -20,7 +19,7 @@ body {
 .one,
 .two {
     width:600px;
-    max-width: 100%;
+    max-width: 90vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -31,6 +30,7 @@ form {
 }
 [type="submit"] {
     width: 200px;
+    max-width:60%;
     margin:auto;
     border:none;
     padding:20px;
@@ -42,6 +42,7 @@ form {
 [type="submit"] a {
     text-decoration: none;
     width: 200px;
+    max-width:60%;
     margin:auto;
     border:none;
     padding:20px;
@@ -53,19 +54,19 @@ form {
 }
 .one input,
 .two input {
-    width: 40%;
+    width: 50%;
     border:none;
     outline :none;
     padding:10px;
     color:#4D455D;
     font-weight: bold;
     border-radius: 10px;
-    font-size: 17px;    
+    font-size: 10px;    
 }
 .one label ,
 .two label {
     background-color: #7FE345;
-    padding:10px;
+    padding:5px;
     width:30%;
     border-radius: 20px;
 
@@ -76,4 +77,25 @@ form {
 .one input:focus::placeholder,
 .two input:focus::placeholder {
     color:transparent
+}
+@media(min-width:576px){
+    .one input,
+    .two input {
+        width: 35%;
+        border:none;
+        outline :none;
+        padding:10px;
+        color:#4D455D;
+        font-weight: bold;
+        border-radius: 10px;
+        font-size: 14px;    
+    }
+    .one label ,
+.two label {
+    background-color: #7FE345;
+    padding:10px;
+    width:35%;
+    border-radius: 20px;
+
+}
 }

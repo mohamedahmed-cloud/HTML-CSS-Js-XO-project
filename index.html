@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>OX Game</title>
-	<!-- <link href="css/all.css" rel="stylesheet" type="text/css"> -->
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play OX Game</title>
+    <link rel="stylesheet" href="css/first.css">
     <link rel="icon" href="images/icon.png">
-
 </head>
 <body>
+    <secction class="main">
+        <div class="container">
+            <form action="index2.html" >
+                <div class="one">
+                    <label for="playerone">First Player</label>
+                    <input id="playerone" type="text" name="player one" required placeholder="First Player Name">
+                </div>
+                <div class="two">
+                    <label for="playertwo">Second Player</label>
+                    <input id="playertwo" type="text" name="player TWo" required placeholder="Second Player Name">
+                </div>
+                <button type="submit" class="submit"> Player </button>
+            </form>    
+        </div>
 
-	<section class="play">
-		<div class="container">
-			<article>
-				<nav>
-					<p class="all1"><span>Player One :</span> <span class="span1"></span></p>
-					<p class="all2"><span>Player Two :</span> <span class="span2"></span></p>
-				</nav>
-				<div class="upper1">
-					<div class="one" ><p class="000"></p></div>
-					<div class="one"><p class="001"></p></div>
-					<div class="one" ><p class="002"></p></div>
-				</div>
-				<div class="upper2">
-					<div class="one"><p class="110"></p></div>
-					<div class="one"><p class="111"></p></div>
-					<div class="one"><p class="112"></p></div>
-				</div>
-				<div class="upper3">
-					<div class="one" ><p class="220"></p></div>
-					<div class="one"><p class="221"></p></div>
-					<div class="one" ><p class="222"></p></div>
-				</div>
-			</article>
-						
-		</div>
-	</section>
-
-	<script type="module" src="js/main.js"></script>
+    </secction>
+    <script  src="js/first.js"></script>
+    <script type="text/html" src="index2.html"></script>
 </body>
 </html>
