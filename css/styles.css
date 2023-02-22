@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16rem;
+    font-family: sans-serif;
+}
+body {
+    height:100vh;
+    width:100vw;
+    background-image:linear-gradient(45deg, #180036 0%, #3D286B 100%);
+}
+/* playername */
+
+
+
+.container {
+    height:100vh;
+    max-width:97vw;
+    width:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+nav p {
+    width:100%;
+    font-size:20px;
+    margin-bottom:10px;
+    height:5vh;
+}
+nav p span {
+    font-weight: bold;
+    color: #181823;
+}
+
+article {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:500px;
+    height:85vh;
+    background-color: #3C2954;
+    border-radius: 10px;
+    padding:5px
+
+
+}
+
+article .upper1,
+article .upper2, 
+article .upper3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:26.3%;
+    background-color: #41305B;
+    border-radius: 10px;
+
+}
+
+article .upper1 .one,
+article .upper2 .one,
+article .upper3 .one {
+    width:32%;
+    height:100%;
+    background-color: #261141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article .upper1 .one p,
+article .upper2 .one p,
+article .upper3 .one p {
+    width:90%;
+    height:90%;
+    background-color: #331D50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 5px solid #463171; */
+    cursor: pointer;
+}
+
+
+/* After playing */
+.o {
+    width:55px;
+    height:55px;
+    /* background-color: #fff; */
+    display: block;
+    border-radius: 50%;
+    border:10px solid #fff;
+}
+.x {
+    width:55px;
+    height:55px;
+    display: block;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:7px;
+    border:4px solid #7FE345;
+    color:#7FE345;
+}
