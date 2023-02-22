@@ -39,16 +39,28 @@ form {
     margin-top:80px;
     cursor: pointer;
 }
+[type="submit"] a {
+    text-decoration: none;
+    width: 200px;
+    margin:auto;
+    border:none;
+    padding:20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top:80px;
+    cursor: pointer;
+    
+}
 .one input,
 .two input {
     width: 40%;
     border:none;
     outline :none;
     padding:10px;
-    color:#7FE345;
+    color:#4D455D;
     font-weight: bold;
     border-radius: 10px;
-    
+    font-size: 17px;    
 }
 .one label ,
 .two label {
@@ -60,4 +72,8 @@ form {
 }
 .two {
     margin-top:30px;
+}
+.one input:focus::placeholder,
+.two input:focus::placeholder {
+    color:transparent
 }

@@ -1,7 +1,7 @@
 let inputOne = document.querySelector(".one input");
 let inputTwo = document.querySelector(".two input");
 let submit = document.querySelector(".submit");
-
+let submitA=document.querySelector('.submit a')
 console.log(inputOne);
 console.log(inputTwo);
 console.log(submit);
